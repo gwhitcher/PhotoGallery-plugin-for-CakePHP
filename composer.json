@@ -1,0 +1,24 @@
+{
+    "name": "gwhitcher/cakephp-photo-gallery",
+    "description": "PhotoGallery plugin for CakePHP.",
+    "type": "cakephp-plugin",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4",
+        "cakephp/cakephp": "~3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhotoGallery\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PhotoGallery\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}

@@ -1,0 +1,58 @@
+/* PhotoGallery Plugin CSS */
+
+ul.pg_list {
+    list-style-type: none;
+}
+
+ul.pg_list li {
+    float: left;
+    padding: 5px;
+}
+
+ul.pg_list li:hover {
+    opacity: 0.8;
+}
+
+ul.pg_list li .pg_caption {
+    font-size: 10px;
+    text-align: center;
+}
+
+.pg_actions {
+    clear: both;
+    float: left;
+    width: 100%;
+    max-width: 100%;
+}
+
+.pg_actions a, .pg_actions a:visited, .pg_actions a:active {
+    color: #FFF;
+    padding: 5px;
+    font-size: 10px;
+}
+
+.pg_actions .delete {
+    background: #900;
+}
+
+.pg_actions .edit {
+    background: #259b24;
+}
+
+.pg_actions .delete:hover, .pg_actions .edit:hover {
+    background: #CCC;
+}
+
+.pg_delete a, .pg_delete a:visited {
+    color: #FFF;
+    display: block;
+    background: #900;
+    padding: 15px;
+    margin: 30px auto;
+    text-align: center;
+    max-width: 300px;
+}
+
+.pg_delete a:hover {
+    background: #CCC;
+}
